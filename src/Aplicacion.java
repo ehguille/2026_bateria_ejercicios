@@ -23,13 +23,15 @@ public class Aplicacion {
 		double fahrenheit=conversor.convertirCelsiusAFahrenheit(celsius);
 		System.out.println(celsius +" grados celsius son "+fahrenheit+" grados fahrenheit.");
 		s.close();*/
-		Libro unLibro=new Libro("100 años de soledad","Gabriel García Márquez",350);
+	/*	Libro unLibro=new Libro("100 años de soledad","Gabriel García Márquez",350);
 		System.out.println(unLibro);
 		unLibro.leer();
 		System.out.println(unLibro);
 		System.out.println(unLibro.getPaginasRestantes());
 		unLibro.getAutor(); // Consulta el autor, pero no lo imprime. 
-
+*/		
+		Telefono t=new Telefono();
+		Telefono otroTelefono=new Telefono(5000);
 	}
 
 	public static void main(String[] args) {
