@@ -15,3 +15,7 @@ La clase principal deberá crear dos termostatos y, en uno, poner la temperatura
 Crea una aplicación que modele un Conversor de unidades. Un conversor puede pasar de kilómetros a millas (1km=0,621 millas) y de grados celsius a fahrenheit (f=c*1,88+32).
 
 La clase principal deberá pedir un número de km al usuario y mostrar cuántas millas son y pedir una temperatura en grados celsius y mostrar cuántos grados farenheit son.
+
+## Libros
+
+Un Libro tiene título, autor, número de páginas y una referencia a la página en la que nos encontramos. El título, autor y número de páginas se indica al crear el libro. La página actual empieza siempre en cero. Un libro tendrá un método leer que avanzará una única página y un método que indica cuántas páginas faltan para terminarlo. El resultado de imprimir un objeto de la clase Libro es algo así como: "El Quijote (Cervantes) - Página 120 de 1250".
