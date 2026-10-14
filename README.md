@@ -9,3 +9,9 @@ Crea una clase Termostato. Todo termostato empieza marcando 20 grados. La temper
 Añade un método que devuelve la temperatura del termostato y otro que imprima la temperatura actual.
 
 La clase principal deberá crear dos termostatos y, en uno, poner la temperatura a 10 grados y mostrarla y, en otro, poner la temperatura a 30 grados y mostrarla.
+
+##  Conversor de unidades
+
+Crea una aplicación que modele un Conversor de unidades. Un conversor puede pasar de kilómetros a millas (1km=0,621 millas) y de grados celsius a fahrenheit (f=c*1,88+32).
+
+La clase principal deberá pedir un número de km al usuario y mostrar cuántas millas son y pedir una temperatura en grados celsius y mostrar cuántos grados farenheit son.
