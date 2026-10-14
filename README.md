@@ -19,3 +19,7 @@ La clase principal deberá pedir un número de km al usuario y mostrar cuántas 
 ## Libros
 
 Un Libro tiene título, autor, número de páginas y una referencia a la página en la que nos encontramos. El título, autor y número de páginas se indica al crear el libro. La página actual empieza siempre en cero. Un libro tendrá un método leer que avanzará una única página y un método que indica cuántas páginas faltan para terminarlo. El resultado de imprimir un objeto de la clase Libro es algo así como: "El Quijote (Cervantes) - Página 120 de 1250".
+
+## Teléfonos y baterías
+
+Un movil nuevo tiene una batería. Por defecto, una batería tiene 3.000 mAh de capacidad. También se puede crear un móvil con una batería de una capacidad distinta. Cuando el móvil hace una llamada de X minutos, la batería pierde 20 mAh por minuto. Cuando el móvil hace una foto, la batería pierde 5 mAh. Si hace varias fotos, pierde 5 mAh por foto. La batería puede cargarse, ganando 50 mAh por minuto de carga. Cada operación debe imprimir la carga restante.
