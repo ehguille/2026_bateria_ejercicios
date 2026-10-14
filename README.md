@@ -22,4 +22,4 @@ Un Libro tiene título, autor, número de páginas y una referencia a la página
 
 ## Teléfonos y baterías
 
-Un movil nuevo tiene una batería. Por defecto, una batería tiene 3.000 mAh de capacidad. También se puede crear un móvil con una batería de una capacidad distinta. Cuando el móvil hace una llamada de X minutos, la batería pierde 20 mAh por minuto. Cuando el móvil hace una foto, la batería pierde 5 mAh. Si hace varias fotos, pierde 5 mAh por foto. La batería puede cargarse, ganando 50 mAh por minuto de carga. Cada operación debe imprimir la carga restante.
+Un movil nuevo tiene una batería. Por defecto, una batería tiene 3.000 mAh de capacidad. También se puede crear un móvil con una batería de una capacidad distinta. Cuando el móvil hace una llamada de X minutos, la batería pierde 20 mAh por minuto. Cuando el móvil hace una foto, la batería pierde 5 mAh. Si hace varias fotos, pierde 5 mAh por foto. La batería puede cargarse, ganando 50 mAh por minuto de carga. Cada operación debe imprimir la carga restante. Tú, como usuario, solo te comunicas con el teléfono, es el teléfono el que se comunica con la batería.
