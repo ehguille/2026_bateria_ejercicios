@@ -12,11 +12,24 @@ public class Dragon {
 	
 	public void atacar(Caballero c, int puntosAtaque) {
 		System.out.println("D: "+nombre+" ataca a "+c.getNombre()+" con "+puntosAtaque+" puntos de ataque");
-		c.setPuntosVida(c.getPuntosVida()-(puntosAtaque-c.getPuntosArmadura()));
+		c.setPuntosVida(c.getPuntosVida()-puntosAtaque+c.getPuntosArmadura());
 	}
 	
 	public String getNombre() {
 		return nombre;
+	}
+	
+	public void setPuntosVida(int puntosVida) {
+		System.out.println("D: "+nombre+" pasa a tener "+puntosVida+" puntos de vida.");
+		this.puntosVida=puntosVida;
+	}
+	
+	public int getPuntosVida() {
+		return puntosVida;
+	}
+	
+	public String toString() {
+		return "D: nombre="+nombre+"; puntos de vida="+puntosVida+".";
 	}
 
 

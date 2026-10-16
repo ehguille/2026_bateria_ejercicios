@@ -28,5 +28,20 @@ public class Caballero {
 		return nombre;
 	}
 	
+	public void atacar(Dragon d, int puntosAtaque) {
+		System.out.println("C: "+nombre+" ataca al dragón "+d.getNombre()+".");
+		d.setPuntosVida(d.getPuntosVida()-puntosAtaque);
+	}
+	
+	public void tomarPocion() {
+		puntosVida=puntosVida+25;
+		System.out.println("D: "+nombre+" toma una poción, ahora tiene "+puntosVida+" puntos de vida");
+	}
+	
+	public void tomarPocion(int puntosSanacion) {
+		puntosVida+=puntosSanacion;
+		System.out.println("D: "+nombre+" toma una poción, ahora tiene "+puntosVida+" puntos de vida");
+	}
+	
 
 }

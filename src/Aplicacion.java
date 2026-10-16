@@ -38,7 +38,18 @@ public class Aplicacion {
 		t.cargarTelefono(10);*/	
 		Caballero pepe=new Caballero("Pepe");
 		Dragon armando=new Dragon("Armando");
-		armando.atacar(pepe, 20);
+		//turno 1
+		armando.atacar(pepe, 22);
+		pepe.atacar(armando, 50);
+		//turno 2
+		armando.atacar(pepe, 30);
+		pepe.tomarPocion();
+		//turno 3
+		armando.atacar(pepe, 50);
+		pepe.atacar(armando, 40);
+		//turno 4
+		armando.atacar(pepe, 100);
+		pepe.tomarPocion(50);
 	}
 
 	public static void main(String[] args) { 
