@@ -26,9 +26,9 @@ Un movil nuevo tiene una batería. Por defecto, una batería tiene 3.000 mAh de 
 
 ## Caballeros y dragones
 
-Crea una clase Caballero y otra Dragon. Los dos tienen nombre y puntos de vida. El caballero empieza con 120 y el dragón con 300. el caballero tiene un nivel de armadura que se indica al crearlo.
+Crea una clase Caballero y otra Dragon. Los dos tienen nombre y puntos de vida. El caballero empieza con 120 y el dragón con 300. el caballero tiene un nivel de armadura de 20 puntos que es indestructible (sus puntos nunca bajan).
 
-El dragón puede atacar a un caballero con unos puntos de daño. El caballero pierde el daño menos su armadura. Por ejemplo: con daño 30 y armadura 10, pierde 20.
+El dragón puede atacar a un caballero con unos puntos de daño. Un dragón siempre ataca, como mínimo, con 20 puntos de ataque. El caballero pierde el daño menos su armadura. Por ejemplo: con daño 30 y armadura 10, pierde 20.
 
 El caballero puede atacar al dragón con unos puntos de daño. El dragón no tiene armadura.
 

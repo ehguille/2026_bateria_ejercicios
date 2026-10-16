@@ -8,9 +8,9 @@ public class Aplicacion {
 		t1.bajar(10);
 		t2.subir(10);
 		t1.imprimirTemperatura();
-		System.out.println("Aplicacion.java: "+t2.getTemperatura());*/
+		System.out.println("Aplicacion.java: "+t2.getTemperatura());
 		
-	/*	Scanner s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		Conversor conversor=new Conversor();
 		
 		System.out.println("Introduce un número de kilómetros (entero):");
@@ -22,23 +22,26 @@ public class Aplicacion {
 		int celsius=s.nextInt();
 		double fahrenheit=conversor.convertirCelsiusAFahrenheit(celsius);
 		System.out.println(celsius +" grados celsius son "+fahrenheit+" grados fahrenheit.");
-		s.close();*/
-	/*	Libro unLibro=new Libro("100 años de soledad","Gabriel García Márquez",350);
+		s.close();
+	
+		Libro unLibro=new Libro("100 años de soledad","Gabriel García Márquez",350);
 		System.out.println(unLibro);
 		unLibro.leer();
 		System.out.println(unLibro);
 		System.out.println(unLibro.getPaginasRestantes());
 		unLibro.getAutor(); // Consulta el autor, pero no lo imprime. 
-*/		
+	
 		Telefono t=new Telefono();
 		t.llamar(10);
 		t.hacerFoto();
 		t.hacerFoto(10);
-		t.cargarTelefono(10);
-
+		t.cargarTelefono(10);*/	
+		Caballero pepe=new Caballero("Pepe");
+		Dragon armando=new Dragon("Armando");
+		armando.atacar(pepe, 20);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Aplicacion app=new Aplicacion();
 	}
 
