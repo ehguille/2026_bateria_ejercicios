@@ -37,3 +37,17 @@ El caballero puede beber una poción que le cura 25 puntos, o los puntos indicad
 Tanto los caballeros como los dragones tienen que tener un método para obtener sus puntos de vida restantes y un toString().
 
 En la clase principal, simula un combate de 4 turnos y muestra el estado final. Cada acción de los personajes tiene que ser impresa por pantalla.
+
+## Peces
+
+Un Pez tiene nombre y niveles de hambre, energía y peso en gramos.
+
+Cada pez tiene un nombre distinto, pero todos empiezan con 30 de hambre, 80 de energía y 50 de peso.
+
+Un pez puede comer unos gramos de comida. Por cada gramo, su hambre baja 4 puntos y su peso sube 1 punto.
+
+Un pez puede nadar un número determinado de minutos. Por cada minuto, su energía baja 3 puntos y su hambre sube 2.
+
+Un pez puede descansar un número de horas. Por cada hora, su energía sube 10 y su hambre sube 1.
+
+Implementa un método mostrarEstado() y un toString() para el pez.
