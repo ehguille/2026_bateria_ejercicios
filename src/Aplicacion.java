@@ -31,7 +31,11 @@ public class Aplicacion {
 		unLibro.getAutor(); // Consulta el autor, pero no lo imprime. 
 */		
 		Telefono t=new Telefono();
-		Telefono otroTelefono=new Telefono(5000);
+		t.llamar(10);
+		t.hacerFoto();
+		t.hacerFoto(10);
+		t.cargarTelefono(10);
+
 	}
 
 	public static void main(String[] args) {

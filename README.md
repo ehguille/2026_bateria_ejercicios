@@ -23,3 +23,17 @@ Un Libro tiene título, autor, número de páginas y una referencia a la página
 ## Teléfonos y baterías
 
 Un movil nuevo tiene una batería. Por defecto, una batería tiene 3.000 mAh de capacidad. También se puede crear un móvil con una batería de una capacidad distinta. Cuando el móvil hace una llamada de X minutos, la batería pierde 20 mAh por minuto. Cuando el móvil hace una foto, la batería pierde 5 mAh. Si hace varias fotos, pierde 5 mAh por foto. La batería puede cargarse, ganando 50 mAh por minuto de carga. Cada operación debe imprimir la carga restante. Tú, como usuario, solo te comunicas con el teléfono, es el teléfono el que se comunica con la batería.
+
+## Caballeros y dragones
+
+Crea una clase Caballero y otra Dragon. Los dos tienen nombre y puntos de vida. El caballero empieza con 120 y el dragón con 300. el caballero tiene un nivel de armadura que se indica al crearlo.
+
+El dragón puede atacar a un caballero con unos puntos de daño. El caballero pierde el daño menos su armadura. Por ejemplo: con daño 30 y armadura 10, pierde 20.
+
+El caballero puede atacar al dragón con unos puntos de daño. El dragón no tiene armadura.
+
+El caballero puede beber una poción que le cura 25 puntos, o los puntos indicados.
+
+Tanto los caballeros como los dragones tienen que tener un método para obtener sus puntos de vida restantes y un toString().
+
+En la clase principal, simula un combate de 4 turnos y muestra el estado final. Cada acción de los personajes tiene que ser impresa por pantalla.

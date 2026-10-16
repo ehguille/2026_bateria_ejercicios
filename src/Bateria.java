@@ -1,16 +1,30 @@
 
 public class Bateria {
 	
-	private int capacidad;
+	private int capacidad, carga;
 	
 	public Bateria() {
 		this.capacidad=3000;
-		System.out.println("Se crea una batería con 3000 mAh de capacidad.");
+		this.carga=capacidad;
+		System.out.println("B: Se crea una batería con 3000 mAh de capacidad.");
 	}
 	
 	public Bateria(int capacidad) {
 		this.capacidad=capacidad;
-		System.out.println("Se crea una batería con "+capacidad+" mAh de capacidad.");
+		this.carga=capacidad;
+		System.out.println("B: Se crea una batería con "+capacidad+" mAh de capacidad.");
+	}
+	
+	public void bajarBateria(int mah) {
+		carga=carga-mah;
+	}
+	
+	public void cargarBateria(int mah) {
+		carga=carga+mah;
+	}
+	
+	public int getCarga() {
+		return carga;
 	}
 
 }
