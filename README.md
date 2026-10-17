@@ -51,3 +51,19 @@ Un pez puede nadar un número determinado de minutos. Por cada minuto, su energ�
 Un pez puede descansar un número de horas. Por cada hora, su energía sube 10 y su hambre sube 1.
 
 Implementa un método mostrarEstado() y un toString() para el pez.
+
+Ampliación: crea unb cuidador que tenga un bote de comida con una cantidad fija de gramos de comida. Si se crea sin indicar nada, el bote es de 3 gramos; si no, de los gramos indicados. El cuidador puede alimentar a cualqueir pez con su cantidad por defecto o con una cantidad concreta. Crea un propietario que sea el dueño de un único pez. Solo el propietario puede cambiarle el nombre a su pez.
+
+## Alumnos
+
+Un alumno tiene nombre y tres calificaciones (una por cada módulo). La aplicación pide al usuario su nombre y las 3 calificaciones y con ellas crea al alumno. El alumno debe tener un método para calcular la media con decimales, subir la nota una cantidad entera y presentarse ante alguien (por ejemplo: "Hola, me llamo Luis y mi nota media es de 5.67").
+
+## Gimnasio
+
+Un socio de un gimnasio tiene un nombre, peso y energía (que siempre empieza en 100). Al hacer ejercicio un número de minutos, pierde 2 puntos de energía por minuto y 0,05 kg de peso por minuto. Puede tomar un batido, que le da 30 puntos de energía y 0,2 de peso. 
+
+Un entrenador tiene un nombre y una intensidad que, por defecto, es 1 (aunque puede variar en el momento de su creación). Cuando entrena a un socio un número de minutos, el socio hace ejercicio durante minutos*intensidad.
+
+Un entrenador puede tener asignado un único socio "preferente", que se indica en el momento de su creación. Tiene un método para entrenar al socio preferente un número determinado de minutos.
+
+La clase principal pide el nombre y el peso de un socio y crea dos entrenadores con distinta intensidad. Hace que ambos entrenen al socio y muestra los datos del socio con un método toString() después de cada entreno.
