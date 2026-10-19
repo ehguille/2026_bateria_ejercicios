@@ -35,7 +35,8 @@ public class Aplicacion {
 		t.llamar(10);
 		t.hacerFoto();
 		t.hacerFoto(10);
-		t.cargarTelefono(10);*/	
+		t.cargarTelefono(10);
+		
 		Caballero pepe=new Caballero("Pepe");
 		Dragon armando=new Dragon("Armando");
 		//turno 1
@@ -50,6 +51,15 @@ public class Aplicacion {
 		//turno 4
 		armando.atacar(pepe, 100);
 		pepe.tomarPocion(50);
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
 	}
 
 	public static void main(String[] args) { 
