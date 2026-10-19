@@ -51,7 +51,7 @@ public class Aplicacion {
 		//turno 4
 		armando.atacar(pepe, 100);
 		pepe.tomarPocion(50);
-		*/
+
 		
 		Pez unPez=new Pez("Wanda");
 		unPez.descansar(10);
@@ -59,6 +59,26 @@ public class Aplicacion {
 		Pez otroPez=new Pez("Lolo");
 		Propietario p=new Propietario(otroPez);
 		p.cambiarNombre("Rosina");
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Nombre?");
+		String nombre=s.nextLine();
+		System.out.println("Nota 1?");
+		double n1=s.nextFloat();
+		System.out.println("Nota 2?");
+		double n2=s.nextDouble();
+		System.out.println("Nota 3?");
+		double n3=s.nextDouble();
+		Alumno a=new Alumno(nombre,n1,n2,n3);
+		a.presentarse();
+		
+		int v1=3;
+		System.out.println(v1);
+		System.out.println((double)v1);
+		
+		double v2=3.23;
+		System.out.println(v2);
+		System.out.println((int)v2);*/
 		
 	}
 
