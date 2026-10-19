@@ -80,6 +80,69 @@ public class Aplicacion {
 		System.out.println(v2);
 		System.out.println((int)v2);*/
 		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
+		*/
+		
+		Pez unPez=new Pez("Wanda");
+		unPez.descansar(10);
+		
+		Pez otroPez=new Pez("Lolo");
+		Propietario p=new Propietario(otroPez);
+		p.cambiarNombre("Rosina");
+		
 	}
 
 	public static void main(String[] args) { 
