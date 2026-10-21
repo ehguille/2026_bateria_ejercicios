@@ -78,9 +78,7 @@ public class Aplicacion {
 		
 		double v2=3.23;
 		System.out.println(v2);
-		System.out.println((int)v2);*/
-		
-		*/
+		System.out.println((int)v2);	
 		
 		Pez unPez=new Pez("Wanda");
 		unPez.descansar(10);
@@ -91,57 +89,21 @@ public class Aplicacion {
 		
 		*/
 		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
+		Scanner s=new Scanner(System.in);
+		System.out.println("Introduce un nombre: ");
+		String nombre=s.nextLine();
+		System.out.println("Introduce un peso: ");
+		double peso=s.nextDouble();
+		Socio unSocioCualquiera=new Socio(nombre, peso);
 		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
+		Entrenador e1=new Entrenador("Manolo", unSocioCualquiera);
+		Entrenador e2=new Entrenador("Manoli", unSocioCualquiera);
 		
-		*/
-		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
-		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
-		
-		*/
-		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
-		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
-		
-		*/
-		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
-		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
-		
-		*/
-		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
-		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
-		
-		*/
-		
-		Pez unPez=new Pez("Wanda");
-		unPez.descansar(10);
-		
-		Pez otroPez=new Pez("Lolo");
-		Propietario p=new Propietario(otroPez);
-		p.cambiarNombre("Rosina");
+		e1.entrenarSocio(1);
+		System.out.println(unSocioCualquiera);
+		e2.entrenarSocio(2);
+		System.out.println(unSocioCualquiera);
+		s.close();
 		
 	}
 
